@@ -1,0 +1,115 @@
+[
+ {
+  "ad": "zamanında",
+  "kayit": {
+   "zaman": "2026-10-17T20:00",
+   "konu": "kütüphane",
+   "not": ""
+  },
+  "simdi": "2026-10-17T20:00:30",
+  "html": "<b>Hatırlatma</b> · bugün 20:00\nkütüphane"
+ },
+ {
+  "ad": "5 dk içinde",
+  "kayit": {
+   "zaman": "2026-10-17T20:00",
+   "konu": "kütüphane",
+   "not": ""
+  },
+  "simdi": "2026-10-17T20:05:00",
+  "html": "<b>Hatırlatma</b> · bugün 20:00\nkütüphane"
+ },
+ {
+  "ad": "12 dk geç",
+  "kayit": {
+   "zaman": "2026-10-17T20:00",
+   "konu": "kütüphane",
+   "not": ""
+  },
+  "simdi": "2026-10-17T20:12:00",
+  "html": "<b>Hatırlatma</b> · bugün 20:00 içindi, 12 dk geç\nkütüphane"
+ },
+ {
+  "ad": "1 saat 5 dk geç",
+  "kayit": {
+   "zaman": "2026-10-17T20:00",
+   "konu": "kütüphane",
+   "not": ""
+  },
+  "simdi": "2026-10-17T21:05:00",
+  "html": "<b>Hatırlatma</b> · bugün 20:00 içindi, 1 saat 5 dk geç\nkütüphane"
+ },
+ {
+  "ad": "3 saat geç",
+  "kayit": {
+   "zaman": "2026-10-17T20:00",
+   "konu": "kütüphane",
+   "not": ""
+  },
+  "simdi": "2026-10-17T23:00:00",
+  "html": "<b>Hatırlatma</b> · bugün 20:00 içindi, 3 saat geç\nkütüphane"
+ },
+ {
+  "ad": "dün, gün değişmiş, 60 dk üstü",
+  "kayit": {
+   "zaman": "2026-10-16T20:00",
+   "konu": "kütüphane",
+   "not": ""
+  },
+  "simdi": "2026-10-17T07:00:00",
+  "html": "<b>Hatırlatma</b> · dün 20:00 içindi, bilgisayar kapalıydı\nkütüphane"
+ },
+ {
+  "ad": "gece yarısı, 6 dk",
+  "kayit": {
+   "zaman": "2026-10-17T23:58",
+   "konu": "kütüphane",
+   "not": ""
+  },
+  "simdi": "2026-10-18T00:04:00",
+  "html": "<b>Hatırlatma</b> · dün 23:58 içindi, 6 dk geç\nkütüphane"
+ },
+ {
+  "ad": "gece yarısı, tam 60 dk",
+  "kayit": {
+   "zaman": "2026-10-17T23:50",
+   "konu": "kütüphane",
+   "not": ""
+  },
+  "simdi": "2026-10-18T00:50:00",
+  "html": "<b>Hatırlatma</b> · dün 23:50 içindi, 1 saat geç\nkütüphane"
+ },
+ {
+  "ad": "gece yarısı, 61 dk",
+  "kayit": {
+   "zaman": "2026-10-17T23:50",
+   "konu": "kütüphane",
+   "not": ""
+  },
+  "simdi": "2026-10-18T00:51:00",
+  "html": "<b>Hatırlatma</b> · dün 23:50 içindi, bilgisayar kapalıydı\nkütüphane"
+ },
+ {
+  "ad": "güvenilmeyen konu ve çok satırlı not",
+  "kayit": {
+   "zaman": "2026-10-17T20:00",
+   "konu": "Test [tıkla](https://kotu.example) **x** & <b>",
+   "not": "ilk\n\n  # Başlık *x* [a](http://b)  \r\nson",
+   "tekrar": "gunluk",
+   "tur": "acil"
+  },
+  "simdi": "2026-10-17T20:00:00",
+  "html": "🚨 <b>Hatırlatma</b> · bugün 20:00\nTest tıkla (https://kotu.example) x &amp; &lt;b&gt;\n<i>ilk</i>\n<i>Başlık x a (http://b)</i>\n<i>son</i>\nher gün tekrarlanıyor"
+ },
+ {
+  "ad": "madde imli konu",
+  "kayit": {
+   "zaman": "2026-10-17T20:00",
+   "konu": "- süt\n- ekmek",
+   "not": "tek satır",
+   "tekrar": "haftaici"
+  },
+  "simdi": "2026-10-17T20:00:00",
+  "html": "<b>Hatırlatma</b> · bugün 20:00\n• süt\n• ekmek\n<i>tek satır</i>\nhafta içi her gün tekrarlanıyor"
+ }
+]

@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "claude-hatirlatici",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-01",
+  "observability": { "enabled": true },
+  // her dakika: zamanı GECIKME_DK'dan fazla geçmiş ve hâlâ "Bekliyor" olan hatırlatmaları gönderir
+  "triggers": { "crons": ["* * * * *"] },
+  "durable_objects": { "bindings": [{ "name": "HAKEM", "class_name": "Hakem" }] },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["Hakem"] }],
+  "vars": {
+    "NOTION_DS": "BURAYA-NOTION-HATIRLATMA-VERITABANI-KIMLIGI",
+    "TZ_DAKIKA": "180",
+    "GECIKME_DK": "2",
+    "EN_ESKI_SAAT": "12",
+    // son nabız bundan eskiyse (ve temiz kapanış yoksa) bir kez "Masaüstü yanıt vermiyor" uyarısı
+    "NABIZ_ESIK_DK": "15"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "projeler": {
+    "telegram-assistant": "~/projects/claude-telegram-assistant",
+    "ExampleApp": "~/projects/example-app"
+  },
+  "takma_ad": {
+    "asistan": "telegram-assistant",
+    "ornek": "ExampleApp"
+  },
+  "disarida": ["secrets"]
+}

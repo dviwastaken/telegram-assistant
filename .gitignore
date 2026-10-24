@@ -1,0 +1,38 @@
+# Gizli bilgiler
+.env
+.env.*
+!.env.example
+*.jeton
+kontrol.jeton
+.dev.vars
+cookies.txt
+*.pfx
+
+# Çalışma zamanı verisi (günlükler, sohbet geçmişi, takvim önbelleği, ödev ve ders dosyaları)
+kayitlar/
+veri/
+ortak/
+panopto/
+panopto-arac/
+
+# Kişisel proje eşlemesi (şablon: projeler.example.json)
+projeler.json
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node / Cloudflare
+node_modules/
+.wrangler/
+
+# Editör ve işletim sistemi
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

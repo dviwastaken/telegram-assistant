@@ -1,0 +1,16 @@
+{
+  "name": "telegram-assistant-reminder-worker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cloudflare Worker: bilgisayar kapalıyken zamanı gelen hatırlatmaları Telegram'a gönderir.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test/birim.test.mjs",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

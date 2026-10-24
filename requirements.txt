@@ -1,0 +1,15 @@
+# Çekirdek servis yalnızca Python standart kütüphanesini kullanır (Python 3.12+).
+# Aşağıdakiler isteğe bağlı özellikler içindir; ilgili özellik kullanılmazsa kurulması gerekmez.
+
+tzdata>=2024.1            # Windows'ta saat dilimi veritabanı (zoneinfo)
+
+# Sesli mesaj tanıma (telefon/ses_tanima.py)
+faster-whisper>=1.0
+numpy>=1.26
+
+# Fotoğraf küçültme ve taranmış PDF (telefon/medya.py)
+pillow>=10.0
+pypdfium2>=4.0
+
+# PDF metni çıkarma (telefon/odevler.py)
+pypdf>=4.0
